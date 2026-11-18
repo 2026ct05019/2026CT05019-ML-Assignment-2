@@ -101,36 +101,7 @@ https://github.com/2026ct05019/2026CT05019-ML-Assignment-2
 
 ## 5. Execution Instructions
 
-### Option A: Jupyter Notebook or BITS Virtual Lab
-
-1. Download or clone the repository.
-2. Open a terminal in the project folder.
-3. Create and activate a virtual environment.
-4. Install the required packages.
-5. Start Jupyter Notebook.
-6. Open `2026CT05019_ML_Assignment_2_Complete.ipynb`.
-7. Select **Kernel → Restart Kernel and Run All Cells**.
-8. Confirm that all cells complete without errors.
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-jupyter notebook
-```
-
-For Windows PowerShell:
-
-```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-jupyter notebook
-```
-
-### Option B: Google Colab
+### Google Colab
 
 1. Open Google Colab.
 2. Select **File → Upload notebook**.
@@ -168,5 +139,3 @@ After successful execution, the following artifacts are created:
 |-- screenshots/
 |   |-- BITS Virtual Lab execution screenshot
 ```
-- Include this README content in the submitted PDF.
-- Confirm that the GitHub repository is accessible and contains all required files.
