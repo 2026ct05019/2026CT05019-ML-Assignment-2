@@ -54,10 +54,8 @@ The **Digits dataset** is used for this multiclass classification problem. It co
 9. Exported the holdout test set as `test_data.csv`.
 
 ## 3. GitHub Repository Link
+https://github.com/2026ct05019/2026CT05019-ML-Assignment-2
 
-**Placeholder:** [Add the final GitHub repository link here](https://github.com/YOUR-USERNAME/2026CT05019-ML-Assignment-2)
-
-Replace the placeholder after creating the repository and verify that the link works while signed out of GitHub.
 
 ## 4. Models Used
 
@@ -170,12 +168,5 @@ After successful execution, the following artifacts are created:
 |-- screenshots/
 |   |-- BITS Virtual Lab execution screenshot
 ```
-
-## 7. Final Submission Notes
-
-- Execute the final notebook in the BITS Virtual Lab.
-- Capture a screenshot showing the Virtual Lab context, notebook name, and successful result output.
-- Add the screenshot to the `screenshots` folder.
-- Replace the GitHub placeholder in this README and in the report.
 - Include this README content in the submitted PDF.
 - Confirm that the GitHub repository is accessible and contains all required files.
