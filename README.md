@@ -16,8 +16,6 @@ The models are:
 4. Gaussian Naive Bayes
 5. Random Forest (Ensemble)
 
-> The assignment text mentions “6 models” in one place, but the prescribed list and table contain five models. Therefore, the five explicitly specified models are implemented.
-
 ## 2. Dataset Description
 
 The **Digits dataset** is used for this multiclass classification problem. It contains handwritten digit images represented by numerical pixel-intensity values.
