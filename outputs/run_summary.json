@@ -1,0 +1,22 @@
+{
+  "student_id": "2026CT05019",
+  "random_state": 5019,
+  "dataset": "scikit-learn Digits / UCI handwritten digits",
+  "rows_before_duplicate_removal": 1797,
+  "duplicates_removed": 0,
+  "rows_after_duplicate_removal": 1797,
+  "number_of_features": 64,
+  "missing_values": 0,
+  "training_rows": 1437,
+  "test_rows": 360,
+  "overall_winner": "kNN",
+  "training_times_seconds": {
+    "Logistic Regression": 0.321903,
+    "Decision Tree": 0.059018,
+    "kNN": 0.035232,
+    "Naive Bayes": 0.044919,
+    "Random Forest (Ensemble)": 4.339961
+  },
+  "python_version": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39"
+}

@@ -1,0 +1,7 @@
+ML Model Name,Observation about model performance
+Logistic Regression,"Strong linear baseline with Accuracy=0.9667, AUC=0.9992, F1=0.9668, and MCC=0.9631. Standardization supported stable optimization, although nonlinear class boundaries limited performance relative to kNN."
+Decision Tree,"Achieved Accuracy=0.8389, AUC=0.9103, F1=0.8380, and MCC=0.8214. The single tree captured nonlinear patterns but generalized less effectively than the Random Forest because of higher variance."
+kNN,"Achieved Accuracy=0.9750, AUC=0.9965, Precision=0.9755, Recall=0.9748, F1=0.9749, and MCC=0.9723. It produced the strongest overall classification performance, showing that same-digit samples form effective local neighborhoods after standardization."
+Naive Bayes,"Achieved Accuracy=0.8111, AUC=0.9772, F1=0.8111, and MCC=0.7939. Performance was constrained by the Gaussian and conditional-independence assumptions, which are restrictive for correlated image pixels."
+Random Forest (Ensemble),"Achieved Accuracy=0.9667, the highest AUC of 0.9994, F1=0.9666, and MCC=0.9631. It substantially outperformed the single Decision Tree, demonstrating the variance-reduction benefit of ensemble learning."
+Overall Winner for your dataset?,"kNN is the overall winner. It achieved Accuracy=0.9750, Precision=0.9755, Recall=0.9748, F1=0.9749, and MCC=0.9723. The decision uses the combined evidence from all six required metrics rather than Accuracy alone."
